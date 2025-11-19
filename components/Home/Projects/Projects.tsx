@@ -21,7 +21,7 @@ const Projects = () => {
                     <h1 className='p-2 font-medium text-white/80'>Apps, UI/UX</h1>
                 </div>
                 {/* 2nd project */}
-                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="50">
                     <Image
                         src={'/images/p2.jpg'}
                         alt='img'
@@ -33,7 +33,7 @@ const Projects = () => {
                     <h1 className='p-2 font-medium text-white/80'>Branding, Motion</h1>
                 </div>
                 {/* 3rd project */}
-                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100">
                     <Image
                         src={'/images/p3.jpg'}
                         alt='img'
@@ -45,7 +45,7 @@ const Projects = () => {
                     <h1 className='p-2 font-medium text-white/80'>Branding, Motion</h1>
                 </div>
                 {/* 4th project */}
-                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="150">
                     <Image
                         src={'/images/p4.jpg'}
                         alt='img'

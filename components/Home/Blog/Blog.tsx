@@ -13,13 +13,13 @@ const Blog = () => {
                         title="Learn how to build an amazing portfolio website using next.js"
                     />
                 </div>
-                <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100">
+                <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="50">
                     <BlogCard
                         image={'/images/b2.jpg'}
                         title="Learn how to build an amazing Blog website using next.js"
                     />
                 </div>
-                <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200">
+                <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100">
                     <BlogCard
                         image={'/images/b3.jpg'}
                         title="Learn how to build an amazing Social Media website using next.js"

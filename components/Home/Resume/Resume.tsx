@@ -27,7 +27,7 @@ const Resume = () => {
           <h1 className='text-3xl sm:text-4xl font-bold text-white'>
             My <span className='text-cyan-200'>Education</span>
           </h1>
-          <div className='mt-10' data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
+          <div className='mt-10' data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="150">
             <ResumeCard Icon={FaReact} role="MERN Full Stack Certification" date='May 2025 - Nov 2025' />
             <ResumeCard Icon={FaJava} role="Java Full Stack Certification" date='May 2025 - Nov 2025' />
             <ResumeCard Icon={FaGear} role="B.Tech - Mech" date='June 2014 - May 2018' />

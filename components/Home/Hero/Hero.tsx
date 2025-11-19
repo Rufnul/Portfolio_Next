@@ -37,7 +37,7 @@ const Hero = () => {
             }} />
           </span>
         </h2>
-        <button data-aos='fade-up' data-aos-delay="600" className='mt-6 px-10 py-4 bg-[crimson] hover:bg-[goldenrod] hover:font-bold transition-all duration-300 cursor-pointer rounded-full text-lg font-medium'>
+        <button data-aos='fade-up' data-aos-delay="300" className='mt-6 px-10 py-4 bg-[crimson] hover:bg-[goldenrod] hover:font-bold transition-all duration-300 cursor-pointer rounded-full text-lg font-medium'>
           <span>See my Work</span>
           <BsArrowRight className='w-5 h-5 ml-2 inline-block' />
         </button>

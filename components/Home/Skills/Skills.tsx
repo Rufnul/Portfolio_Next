@@ -140,7 +140,7 @@ const Skills = () => {
             <div className='flex flex-wrap justify-center gap-6 mt-16'>
                 {skills.map((skill, i) => (
                     <Tilt key={skill.name} scale={1.2} transitionSpeed={400}>
-                        <div data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-delay={i * 50} className='bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition hover:scale-105 backdrop-blur-md'>
+                        <div data-aos="flip-right" data-aos-anchor-placement="top-center" data-aos-delay={i * 25} className='bg-[#14134145] text-center w-40 h-48 rounded-3xl flex flex-col items-center justify-center shadow-lg transition hover:scale-105 backdrop-blur-md'>
                             <div className='text-5xl mb-4 text-gray-300'>
                                 {skill.icon}
                             </div>
