@@ -28,7 +28,7 @@ const Nav = ({ openNav }: props) => {
             <div className='flex items-center h-full justify-between w-[90%] mx-auto'>
                 {/* logo */}
                 <div className='flex items-center space-x-2'>
-                    <div className="w-10 h-10 bg-[crimson] rounded-full flex items-center justify-center">
+                    <div className="w-10 h-10 bg-[crimson] hover:bg-red-500 rounded-full flex items-center justify-center">
                         <FaCode className="text-white w-5 h-5" />
                     </div>
                     <h1 className='text-xl hidden sm:block md:text-2xl text-white font-bold'>Rufnul</h1>
@@ -44,7 +44,7 @@ const Nav = ({ openNav }: props) => {
                 {/* buttons */}
                 <div className='flex item-center space-x-4'>
                     {/* cv button */}
-                    <button className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-[crimson] hover:bg-[goldenrod] hover:font-bold transition-all duration-300 text-white flex item-center space-x-2'>
+                    <button className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-[crimson] hover:bg-red-500 hover:font-bold transition-all duration-300 text-white flex item-center space-x-2'>
                         <BiDownload className='w-5 h-5' />
                         <span>Download CV</span>
                     </button>

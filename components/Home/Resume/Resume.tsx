@@ -24,7 +24,7 @@ const Resume = () => {
 
         {/* Education */}
         <div >
-          <h1 className='text-3xl sm:text-4xl font-bold text-white'>
+          <h1 id='3' className='text-3xl sm:text-4xl font-bold text-white'>
             My <span className='text-cyan-200'>Education</span>
           </h1>
           <div className='mt-10' data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="150">
