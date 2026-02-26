@@ -10,7 +10,7 @@ const Hero = () => {
     <div id='1' className='overflow-relative h-screen flex items-center justify-center text-gray-300 overflow-hidden flex-col'>
       <ParticlesHero />
       <div className='relative z-10 flex flex-col items-center'>
-        <Image src={'/images/rufnul_afrideen.jpg'}
+        <Image src={'/images/rufnul.jpg'}
           alt='Hero Image'
           width={150}
           height={150}
