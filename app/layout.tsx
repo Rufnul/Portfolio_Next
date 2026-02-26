@@ -12,7 +12,7 @@ const font = Inter({
 
 export const metadata: Metadata = {
   title: "Rufnul Portfolio",
-  description: "Portfolio build with Next.js",
+  description: "Own Portfolio - build with Next.js",
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <ScrollToTop />
-        </body>
+      </body>
     </html>
   );
 }

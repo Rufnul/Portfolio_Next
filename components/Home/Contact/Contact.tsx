@@ -1,8 +1,9 @@
 import React from 'react'
 import { BiEnvelope, BiMap, BiPhone } from 'react-icons/bi'
-import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaYoutube, FaXTwitter } from 'react-icons/fa6'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
+import Link from 'next/link'
 
 const Contact = () => {
 
@@ -58,18 +59,31 @@ const Contact = () => {
 
                     {/* Social Icons */}
                     <div className='flex items-center mt-8 space-x-3'>
-                        <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300'>
-                            <FaFacebookF className='text-white w-6 h-6' />
-                        </div>
-                        <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-red-800 transition-all duration-300'>
-                            <FaYoutube className='text-white w-6 h-6' />
-                        </div>
-                        <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-sky-400 transition-all duration-300'>
-                            <FaTwitter className='text-white w-6 h-6' />
-                        </div>
-                        <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-pink-800 transition-all duration-300 '>
-                            <FaInstagram className='text-white w-6 h-6' />
-                        </div>
+
+                        <Link href="https://facebook.com" target="_blank">
+                            <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-blue-800 transition-all duration-300'>
+                                <FaFacebookF className='text-white w-6 h-6' />
+                            </div>
+                        </Link>
+
+                        <Link href="https://youtube.com" target="_blank">
+                            <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-red-800 transition-all duration-300'>
+                                <FaYoutube className='text-white w-6 h-6' />
+                            </div>
+                        </Link>
+
+                        <Link href="https://x.com" target="_blank">
+                            <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-black transition-all duration-300'>
+                                <FaXTwitter className='text-white w-6 h-6' />
+                            </div>
+                        </Link>
+
+                        <Link href="https://instagram.com/Rufnul" target="_blank">
+                            <div className='w-14 h-14 bg-blue-950/60 rounded-full flex items-center justify-center hover:bg-pink-800 transition-all duration-300'>
+                                <FaInstagram className='text-white w-6 h-6' />
+                            </div>
+                        </Link>
+
                     </div>
                 </div>
 
